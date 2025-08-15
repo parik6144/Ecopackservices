@@ -1,0 +1,78 @@
+[20-Jun-2024 15:45:39 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[30-Dec-2024 17:39:14 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[30-Dec-2024 17:39:17 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[30-Dec-2024 17:39:25 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[04-Jan-2025 16:34:17 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[15-Feb-2025 11:38:06 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[10-Mar-2025 10:44:44 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:21 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:28 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:33 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:33 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:33 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:33 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:34 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:34 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:34 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:34 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:45:36 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecpack.php on line 30
+[10-Mar-2025 10:46:06 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecopack.php on line 30
+[10-Mar-2025 10:46:46 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/z2v1ltz34mar/public_html/dbbackupecopack.php on line 30
+[10-Mar-2025 10:59:27 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/z2v1ltz34mar/public_html/dbbackupecopack.php on line 66
+[10-Mar-2025 10:59:33 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/z2v1ltz34mar/public_html/dbbackupecopack.php on line 66
+[10-Mar-2025 11:15:18 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/z2v1ltz34mar/public_html/dbbackupecopack.php on line 66
+[01-Apr-2025 09:20:41 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 09:21:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 09:21:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 09:24:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 09:24:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 09:25:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:06:43 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:07:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:07:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:08:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:09:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:09:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:10:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:11:04 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:14:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:14:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:14:34 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:14:36 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:14:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:16:04 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:16:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:16:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:08 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:48 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:17:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:19:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:19:06 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:23:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:33 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:34 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:42 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:45 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:30:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 27
+[01-Apr-2025 10:33:36 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/z2v1ltz34mar/public_html/application/models/Mdl_invoice.php on line 49
+[21-Apr-2025 16:26:07 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170
+[21-Apr-2025 16:27:02 Asia/Kolkata] PHP Fatal error:  Call to a member function result_array() on null in /home/z2v1ltz34mar/public_html/application/models/Mdl_ledger.php on line 170

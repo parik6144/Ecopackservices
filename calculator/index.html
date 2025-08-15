@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecopack CTC Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://ecopackservices.com/uploads/EcoPack1.png" alt="Ecopack Logo" class="logo">
+            <h1>Ecopack CTC Calculator</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="calculator-section">
+            <h2>Salary Input</h2>
+            <form id="ctcForm">
+                <h3>Employee Details</h3>
+                <div class="input-group">
+                    <label for="employeeName">Employee Name:</label>
+                    <input type="text" id="employeeName" value="Anurag Mittal" placeholder="Enter employee name">
+                </div>
+                <div class="input-group">
+                    <label for="designation">Designation:</label>
+                    <input type="text" id="designation" value="Sales Person" placeholder="Enter designation">
+                </div>
+
+                <h3>Fixed Components (Monthly)</h3>
+                <div class="input-group">
+                    <label for="basicSalary">Monthly Gross Salary (Total CTC will be calculated based on this):</label>
+                    <input type="number" id="basicSalary" value="7500" min="0" placeholder="Enter monthly gross salary">
+                </div>
+                <div class="input-group">
+                    <label for="basicPercentage">Basic Salary (% of Gross):</label>
+                    <input type="number" id="basicPercentage" value="50" min="0" max="100" placeholder="Enter basic salary percentage">
+                </div>
+                <div class="input-group">
+                    <label for="hra">HRA (% of Basic):</label>
+                    <input type="number" id="hra" value="30" min="0" max="100" placeholder="Enter HRA percentage">
+                </div>
+                <div class="input-group">
+                    <label for="conveyance">Conveyance Allowance (% of Basic):</label>
+                    <input type="number" id="conveyance" value="10" min="0" placeholder="Enter conveyance percentage">
+                </div>
+                <div class="input-group">
+                    <label for="education">Education Allowance (% of Basic):</label>
+                    <input type="number" id="education" value="5" min="0" placeholder="Enter education allowance percentage">
+                </div>
+                <div class="input-group">
+                    <label for="medical">Medical Allowance (% of Basic):</label>
+                    <input type="number" id="medical" value="5" min="0" placeholder="Enter medical allowance percentage">
+                </div>
+                <div class="input-group">
+                    <label for="specialAllowance">Special Allowance (% of Basic):</label>
+                    <input type="number" id="specialAllowance" value="15" min="0" placeholder="Enter special allowance percentage">
+                </div>
+
+                <h3>Variable & Employer Contributions (Annual)</h3>
+                <div class="input-group">
+                    <label for="lta">LTA (Annual Fixed):</label>
+                    <input type="number" id="lta" value="20000" min="0" placeholder="Enter LTA amount">
+                </div>
+                <div class="input-group">
+                    <label for="performanceBonus">Performance Bonus (Target Annual):</label>
+                    <input type="number" id="performanceBonus" value="30000" min="0" placeholder="Enter performance bonus">
+                </div>
+                <div class="input-group">
+                    <label for="employerPfRate">Employer PF Rate (% of Basic):</label>
+                    <input type="number" id="employerPfRate" value="12" min="0" max="100" placeholder="Enter employer PF rate">
+                </div>
+                <div class="input-group">
+                    <label for="employerEsiRate">Employer ESI Rate (% of Gross - if applicable):</label>
+                    <input type="number" id="employerEsiRate" value="3.25" step="0.01" min="0" max="100" placeholder="Enter employer ESI rate">
+                </div>
+                <div class="input-group">
+                    <label for="gratuityRate">Gratuity Rate (% of Basic):</label>
+                    <input type="number" id="gratuityRate" value="4.81" step="0.01" min="0" max="100" placeholder="Enter gratuity rate">
+                </div>
+                <div class="input-group">
+                    <label for="healthInsurancePremium">Health Insurance Premium (Employer):</label>
+                    <input type="number" id="healthInsurancePremium" value="15000" min="0" placeholder="Enter health insurance premium">
+                </div>
+                <div class="input-group">
+                    <label for="otherPerks">Other Company Perks (Annual):</label>
+                    <input type="number" id="otherPerks" value="10000" min="0" placeholder="Enter other perks amount">
+                </div>
+
+                <h3>Employee Deductions (Annual)</h3>
+                <div class="input-group">
+                    <label for="employeePfRate">Employee PF Rate (% of Basic):</label>
+                    <input type="number" id="employeePfRate" value="12" min="0" max="100" placeholder="Enter employee PF rate">
+                </div>
+                 <div class="input-group">
+                    <label for="employeeEsiRate">Employee ESI Rate (% of Gross - if applicable):</label>
+                    <input type="number" id="employeeEsiRate" value="0.75" step="0.01" min="0" max="100" placeholder="Enter employee ESI rate">
+                </div>
+                <div class="input-group">
+                    <label for="professionalTax">Professional Tax (Annual):</label>
+                    <input type="number" id="professionalTax" value="500" min="0" placeholder="Enter professional tax">
+                </div>
+                <div class="input-group">
+                    <label for="otherDeductions">Other Deductions (Annual):</label>
+                    <input type="number" id="otherDeductions" value="0" min="0" placeholder="Enter other deductions">
+                </div>
+            </form>
+        </div>
+
+        <div class="preview-section">
+            <h2>CTC & Salary Preview</h2>
+            <div id="previewData">
+                <!-- Calculated data will be displayed here -->
+            </div>
+            <button id="generatePdf">
+                📄 Generate PDF Report
+            </button>
+            <div style="margin-top: 15px; text-align: center; font-size: 0.9em; color: #666;">
+                💡 Tip: Press Ctrl+Enter to quickly generate PDF
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ecopack Services. All rights reserved. | Made with ❤️ for accurate CTC calculations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
